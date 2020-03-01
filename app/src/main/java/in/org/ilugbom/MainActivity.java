@@ -17,59 +17,39 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
-    ViewPager2 viewPager2;
+    private ViewPager2 viewPager2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
         viewPager2 = findViewById(R.id.viewPager2);
-
-        List<String> list = new ArrayList<>();
-        list.add("First Screen");
-        list.add("Second Screen");
-        list.add("Third Screen");
-        list.add("Fourth Screen");
-
-        viewPager2.setAdapter(new ViewPagerAdapter(this, list, viewPager2));
-
-
-
-
-
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        setUpPagerAdapter();
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
+    /**
+     * set up adapter same like you do for RecyclerView or other components
+     */
+    private void setUpPagerAdapter() {
+        PagerAdapter pagerAdapter = new PagerAdapter(fetchDummyData());
+        viewPager2.setAdapter(pagerAdapter);
+        viewPager2.setOrientation(ViewPager2.ORIENTATION_HORIZONTAL);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+    /**
+     *
+     * @return this method will return dummy data in form of list
+     */
+    private List<PagerM> fetchDummyData() {
+        List<PagerM> pagerMList = new ArrayList<>();
+        String[] dummyArr = {"1","2","3","4"};
+        for (String str : dummyArr) {
+            PagerM pagerM = new PagerM();
+            pagerM.setPagerDescription(str);
+            pagerMList.add(pagerM);
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
         }
-
-        return super.onOptionsItemSelected(item);
+        return pagerMList;
     }
 }
+
