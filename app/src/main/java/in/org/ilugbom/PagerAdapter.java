@@ -19,12 +19,12 @@ public class PagerAdapter extends RecyclerView.Adapter {
     private List<PagerM> pagerMList;
 
     class PagerViewHolder extends RecyclerView.ViewHolder {
-        private TextView txtDescription;
+
         private Button btnReset;
 
         public PagerViewHolder(@NonNull View itemView) {
             super(itemView);
-            txtDescription = itemView.findViewById(R.id.txtDescription);
+
             btnReset = itemView.findViewById(R.id.bReset);
         }
     }
@@ -44,7 +44,7 @@ public class PagerAdapter extends RecyclerView.Adapter {
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         PagerViewHolder viewHolder = (PagerViewHolder) holder;
         PagerM pagerM = pagerMList.get(position);
-        viewHolder.txtDescription.setText(pagerM.getPagerDescription());
+
         viewHolder.btnReset.setText(pagerM.getPagerDescription());
     }
 
