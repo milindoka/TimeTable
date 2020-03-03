@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         viewPager2 = findViewById(R.id.viewPager2);
         setUpPagerAdapter();
     }
-
     /**
      * set up adapter same like you do for RecyclerView or other components
      */
@@ -42,10 +41,10 @@ public class MainActivity extends AppCompatActivity {
      */
     private List<PagerM> fetchDummyData() {
         List<PagerM> pagerMList = new ArrayList<>();
-        String[] dummyArr = {"1","2","3","4"};
-        for (String str : dummyArr) {
+        for (int i=0;i<4;i++)
+         {
             PagerM pagerM = new PagerM();
-            pagerM.setPagerDescription(str);
+            pagerM.setPagerDescription(String.format("%02d",i));
             pagerMList.add(pagerM);
 
         }

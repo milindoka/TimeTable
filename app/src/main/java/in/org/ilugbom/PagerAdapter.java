@@ -21,7 +21,7 @@ import java.util.zip.Inflater;
  */
 public class PagerAdapter extends RecyclerView.Adapter {
     private List<PagerM> pagerMList;
-
+   int CURRENTPAGE=0;
     class PagerViewHolder extends RecyclerView.ViewHolder  implements View.OnClickListener
     {
 
@@ -58,20 +58,21 @@ public class PagerAdapter extends RecyclerView.Adapter {
                         public void onClick(DialogInterface dialog, int which) {
                             String task = String.valueOf(taskEditText.getText());
 
-
-
                             switch (V) {
 
                                 case R.id.b00:
                                     btnb00.setText(task);
+                                      pagerMList.get(CURRENTPAGE).setCell(0,0,task);
                                     break;
 
                                 case R.id.b01:
                                     btnb01.setText(task);
+                                    pagerMList.get(CURRENTPAGE).setCell(0,1,task);
                                     break;
 
                                 case R.id.b02:
                                     btnb02.setText(task);
+                                    pagerMList.get(CURRENTPAGE).setCell(0,2,task);
                                     break;
 
                                 default:
@@ -126,8 +127,11 @@ public class PagerAdapter extends RecyclerView.Adapter {
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         PagerViewHolder viewHolder = (PagerViewHolder) holder;
         PagerM pagerM = pagerMList.get(position);
-
+        CURRENTPAGE=position;
         viewHolder.btnReset.setText(pagerM.getPagerDescription());
+        viewHolder.btnb00.setText(pagerM.getCell(0,0));
+        viewHolder.btnb01.setText(pagerM.getCell(0,1));
+        viewHolder.btnb02.setText(pagerM.getCell(0,2));
     }
 
     @Override
