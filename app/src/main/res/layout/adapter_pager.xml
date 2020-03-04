@@ -21,11 +21,11 @@
         android:padding="2dp"
         >
 
-        <!--Row 1-->
+        <!--Row 0-->
         <TableRow>
 
             <Button
-                android:id="@+id/b00"
+                android:id="@+id/TV00"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
@@ -39,7 +39,7 @@
                 />
 
             <Button
-                android:id="@+id/b01"
+                android:id="@+id/TV01"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
@@ -53,7 +53,7 @@
                 />
 
             <Button
-                android:id="@+id/b02"
+                android:id="@+id/TV02"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
@@ -66,13 +66,169 @@
                 style="@style/Widget.AppCompat.Button"
                 />
 
+            <Button
+                android:id="@+id/TV03"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:textAllCaps="false"
+                android:maxLines="1"
+                style="@style/Widget.AppCompat.Button"
+                />
+
+            <Button
+                android:id="@+id/TV04"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:textAllCaps="false"
+                android:maxLines="1"
+                style="@style/Widget.AppCompat.Button"
+                />
+
+            <Button
+                android:id="@+id/TV05"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:textAllCaps="false"
+                android:maxLines="1"
+                style="@style/Widget.AppCompat.Button"
+                />
+
+            <Button
+                android:id="@+id/TV06"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:textAllCaps="false"
+                android:maxLines="1"
+                style="@style/Widget.AppCompat.Button"
+                />
         </TableRow>
+
+        <!--Row 1-->
+       <TableRow>
+        <Button
+            android:id="@+id/TV10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV16"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            style="@style/Widget.AppCompat.Button"
+            />
+       </TableRow>
+
 
         <!--Row 2-->
         <TableRow>
-
             <Button
-                android:id="@+id/b10"
+                android:id="@+id/TV20"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
@@ -86,7 +242,7 @@
                 />
 
             <Button
-                android:id="@+id/b11"
+                android:id="@+id/TV21"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
@@ -100,7 +256,7 @@
                 />
 
             <Button
-                android:id="@+id/b12"
+                android:id="@+id/TV22"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
@@ -113,58 +269,65 @@
                 style="@style/Widget.AppCompat.Button"
                 />
 
+            <Button
+                android:id="@+id/TV23"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:textAllCaps="false"
+                android:maxLines="1"
+                style="@style/Widget.AppCompat.Button"
+                />
+
+            <Button
+                android:id="@+id/TV24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:textAllCaps="false"
+                android:maxLines="1"
+                style="@style/Widget.AppCompat.Button"
+                />
+
+            <Button
+                android:id="@+id/TV25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:textAllCaps="false"
+                android:maxLines="1"
+                style="@style/Widget.AppCompat.Button"
+                />
+
+            <Button
+                android:id="@+id/TV26"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:textAllCaps="false"
+                android:maxLines="1"
+                style="@style/Widget.AppCompat.Button"
+                />
         </TableRow>
-
-        <!--Row 3-->
-        <TableRow>
-
-            <Button
-                android:id="@+id/b20"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textSize="22sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
-                android:layout_margin="2dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
-                style="@style/Widget.AppCompat.Button"
-                />
-
-            <Button
-                android:id="@+id/b21"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textSize="22sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
-                android:layout_margin="2dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
-                style="@style/Widget.AppCompat.Button"
-                />
-
-            <Button
-                android:id="@+id/b22"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textSize="22sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
-                android:layout_margin="2dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
-                style="@style/Widget.AppCompat.Button"
-                />
-
-        </TableRow>
-
     </TableLayout>
 
-    <!--Button to reset game board-->
+    <!--Button to show title-->
     <Button
         android:id="@+id/bReset"
         android:layout_width="wrap_content"

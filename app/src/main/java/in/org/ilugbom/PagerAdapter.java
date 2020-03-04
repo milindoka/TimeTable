@@ -17,35 +17,48 @@ import java.util.List;
 import java.util.zip.Inflater;
 
 /**
- * Created by Becody.com on 08,07,2019
+ * Created by Milind on 01,03,2020
  */
-public class PagerAdapter extends RecyclerView.Adapter {
+public class PagerAdapter extends RecyclerView.Adapter
+{
+    int TOTALROWS=3,TOTALCOLS=7;
     private List<PagerM> pagerMList;
    int CURRENTPAGE=0;
     class PagerViewHolder extends RecyclerView.ViewHolder  implements View.OnClickListener
     {
 
         private Button btnReset;
-        private Button btnb00,btnb01,btnb02;
+        private Button btt[][]=new Button[10][7];
 
         public PagerViewHolder(@NonNull View itemView) {
             super(itemView);
 
             btnReset = itemView.findViewById(R.id.bReset);
-            btnb00  = itemView.findViewById(R.id.b00);
-            btnb00.setOnClickListener(this); // calling onClick() method
 
-            btnb01  = itemView.findViewById(R.id.b01);
-            btnb01.setOnClickListener(this); // calling onClick() method
+            int i=0,j=0;
+            for ( i = 0; i < TOTALROWS; i++)
+                for ( j = 0; j < TOTALCOLS; j++)
 
-            btnb02  = itemView.findViewById(R.id.b02);
-            btnb02.setOnClickListener(this); // calling onClick() method
-
+                    {
+                     btt[i][j]=itemView.findViewById(V.T[i][j]);
+                     btt[i][j].setOnClickListener(this);
+                    }
         }
 
         @Override
         public void onClick(View v)
         {
+            int temprow=0,tempcol=0;
+            final int ii = v.getId();
+            int i=0,j=0;
+            for ( i = 0; i < TOTALROWS; i++)
+                for ( j = 0; j < TOTALCOLS; j++)
+                    if( V.T[i][j]==ii) {temprow=i;tempcol=j; break;}
+            final int    row=temprow;
+            final int col=tempcol;
+
+            final Button tempbutton =v.findViewById(ii);
+
          // showForgotDialog(v.getContext());
             final int V=v.getId();
             final EditText taskEditText = new EditText(v.getContext());
@@ -57,35 +70,12 @@ public class PagerAdapter extends RecyclerView.Adapter {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             String task = String.valueOf(taskEditText.getText());
-
-                            switch (V) {
-
-                                case R.id.b00:
-                                    btnb00.setText(task);
-                                      pagerMList.get(CURRENTPAGE).setCell(0,0,task);
-                                    break;
-
-                                case R.id.b01:
-                                    btnb01.setText(task);
-                                    pagerMList.get(CURRENTPAGE).setCell(0,1,task);
-                                    break;
-
-                                case R.id.b02:
-                                    btnb02.setText(task);
-                                    pagerMList.get(CURRENTPAGE).setCell(0,2,task);
-                                    break;
-
-                                default:
-                                    break;
-                            }
-         }
+                            tempbutton.setText(task);
+                                 }
                     })
                     .setNegativeButton("Cancel", null)
                     .create();
             dialog.show();
-
-
-
         }
 
 
@@ -107,9 +97,6 @@ public class PagerAdapter extends RecyclerView.Adapter {
             dialog.show();
         }
 
-
-
-
     }  ////end of class pageviewholder
 
     public PagerAdapter(List<PagerM> pagerMList) {
@@ -129,9 +116,13 @@ public class PagerAdapter extends RecyclerView.Adapter {
         PagerM pagerM = pagerMList.get(position);
         CURRENTPAGE=position;
         viewHolder.btnReset.setText(pagerM.getPagerDescription());
-        viewHolder.btnb00.setText(pagerM.getCell(0,0));
-        viewHolder.btnb01.setText(pagerM.getCell(0,1));
-        viewHolder.btnb02.setText(pagerM.getCell(0,2));
+
+        int i=0,j=0;
+        for ( i = 0; i < TOTALROWS; i++)
+            for ( j = 0; j < TOTALCOLS; j++)
+            {
+                viewHolder.btt[i][j].setText(pagerM.getCell(0, 0));
+            }
     }
 
     @Override
