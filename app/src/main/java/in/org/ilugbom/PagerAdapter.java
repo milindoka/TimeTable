@@ -59,14 +59,14 @@ public class PagerAdapter extends RecyclerView.Adapter
 
             final Button tempbutton =v.findViewById(ii);
 
-         // showForgotDialog(v.getContext());
+         // showDialog(v.getContext());
             final int V=v.getId();
             final EditText taskEditText = new EditText(v.getContext());
             AlertDialog dialog = new AlertDialog.Builder(v.getContext())
-                    .setTitle("Forgot Password")
-                    .setMessage("Enter your mobile number?")
+                    .setTitle("Edit Cell")
+                    .setMessage("Enter Cell Content")
                     .setView(taskEditText)
-                    .setPositiveButton("Reset", new DialogInterface.OnClickListener() {
+                    .setPositiveButton("Done", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             String task = String.valueOf(taskEditText.getText());
@@ -79,23 +79,6 @@ public class PagerAdapter extends RecyclerView.Adapter
         }
 
 
-         void showForgotDialog(Context c) {
-            final EditText taskEditText = new EditText(c);
-            AlertDialog dialog = new AlertDialog.Builder(c)
-                    .setTitle("Forgot Password")
-                    .setMessage("Enter your mobile number?")
-                    .setView(taskEditText)
-                    .setPositiveButton("Reset", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            String task = String.valueOf(taskEditText.getText());
-           //                 temp=task;
-                        }
-                    })
-                    .setNegativeButton("Cancel", null)
-                    .create();
-            dialog.show();
-        }
 
     }  ////end of class pageviewholder
 
@@ -111,7 +94,8 @@ public class PagerAdapter extends RecyclerView.Adapter
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position)
+    {
         PagerViewHolder viewHolder = (PagerViewHolder) holder;
         PagerM pagerM = pagerMList.get(position);
         CURRENTPAGE=position;
@@ -121,7 +105,7 @@ public class PagerAdapter extends RecyclerView.Adapter
         for ( i = 0; i < TOTALROWS; i++)
             for ( j = 0; j < TOTALCOLS; j++)
             {
-                viewHolder.btt[i][j].setText(pagerM.getCell(0, 0));
+                viewHolder.btt[i][j].setText(pagerM.getCell(i, j));
             }
     }
 
