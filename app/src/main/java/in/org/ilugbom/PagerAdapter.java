@@ -3,6 +3,8 @@ package in.org.ilugbom;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,9 +14,16 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.gson.Gson;
 
 import java.util.List;
 import java.util.zip.Inflater;
+
+import static android.content.ContentValues.TAG;
+import static android.content.Context.MODE_PRIVATE;
+import static android.provider.Contacts.SettingsColumns.KEY;
 
 /**
  * Created by Milind on 01,03,2020
@@ -28,7 +37,7 @@ public class PagerAdapter extends RecyclerView.Adapter
     {
 
         private Button btnReset;
-        private Button btt[][]=new Button[10][7];
+        private Button btt[][]=new Button[TOTALROWS][TOTALCOLS];
 
         public PagerViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -47,20 +56,20 @@ public class PagerAdapter extends RecyclerView.Adapter
 
         @Override
         public void onClick(View v)
-        {
+        {    notifyDataSetChanged();
             int temprow=0,tempcol=0;
             final int ii = v.getId();
             int i=0,j=0;
             for ( i = 0; i < TOTALROWS; i++)
                 for ( j = 0; j < TOTALCOLS; j++)
                     if( V.T[i][j]==ii) {temprow=i;tempcol=j; break;}
-            final int    row=temprow;
+            final int row=temprow;
             final int col=tempcol;
 
             final Button tempbutton =v.findViewById(ii);
 
          // showDialog(v.getContext());
-            final int V=v.getId();
+        //    final int V=v.getId();
             final EditText taskEditText = new EditText(v.getContext());
             AlertDialog dialog = new AlertDialog.Builder(v.getContext())
                     .setTitle("Edit Cell")
@@ -69,8 +78,13 @@ public class PagerAdapter extends RecyclerView.Adapter
                     .setPositiveButton("Done", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
+
                             String task = String.valueOf(taskEditText.getText());
+
+                            pagerMList.get(CURRENTPAGE).setCell(row,col,task);
                             tempbutton.setText(task);
+                            SaveData();
+                          //  savedata(MainActivity.getAppContext(),pagerMList);
                                  }
                     })
                     .setNegativeButton("Cancel", null)
@@ -93,6 +107,8 @@ public class PagerAdapter extends RecyclerView.Adapter
         return new PagerViewHolder(view);
     }
 
+
+
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position)
     {
@@ -113,4 +129,45 @@ public class PagerAdapter extends RecyclerView.Adapter
     public int getItemCount() {
         return pagerMList.size();
     }
+
+    String SHARED_PREFS = "TT-PREF";
+    String KEY = "ALLTABLES";
+
+    public void SaveData()
+    {
+        String alldata="";
+        for(int t=0;t<pagerMList.size();t++)
+        {
+            for (int i = 0; i < TOTALROWS; i++)
+                for (int j = 0; j < TOTALCOLS; j++)
+                {
+                    alldata += pagerMList.get(t).getCell(i, j);
+                    alldata += "│";
+                }
+
+            alldata += pagerMList.get(t).getPagerDescription();
+            if(t<pagerMList.size()-1) alldata+="┼"; //no end mark ┼ for last record
+        }
+
+
+        SharedPreferences sharedPreferences = MainActivity.getAppContext().getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString(KEY,alldata);
+        editor.apply();
+    }
+/*
+
+    public void savedata(Context context, List<PagerM> callLog) {
+        SharedPreferences mPrefs = context.getSharedPreferences("TT-PREFS", context.MODE_PRIVATE);
+        SharedPreferences.Editor prefsEditor = mPrefs.edit();
+        Gson gson = new Gson();
+        String json = gson.toJson(callLog);
+        prefsEditor.putString("myJson", json);
+        prefsEditor.commit();
+    }
+*/
+
+
+
+
 }

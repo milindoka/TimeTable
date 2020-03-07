@@ -1,22 +1,24 @@
 package in.org.ilugbom;
 
 /**
- * Created by Becody.com on 08,07,2019
+ * Created by Milind com on 08,07,2019
  */
 public class PagerM {
-    private String pagerDescription;
-    String[][] TV = new String[10][7];
+    String title;
+    int TOTALROWS=3,TOTALCOLS=7;
+    String[][] TV = new String[TOTALROWS][TOTALCOLS];
+
 
     public String getPagerDescription() {
-        return pagerDescription;
+        return title;
     }
 
     public void setPagerDescription(String pagerDescription)
     {
-        this.pagerDescription = pagerDescription;
+        this.title = pagerDescription;
 
-            for (int i = 0; i < 10; i++)
-                for (int j = 0; j < 7; j++)
+            for (int i = 0; i < TOTALROWS; i++)
+                for (int j = 0; j < TOTALCOLS; j++)
                 { TV[i][j]="";
                 }
 
@@ -29,6 +31,7 @@ public class PagerM {
 
             TV[1][0]=("12:30");
             TV[2][0]=("13:10");
+         /*
             TV[3][0]=("13:50");
             TV[4][0]=("14:30");
             TV[5][0]=("15:00");
@@ -36,6 +39,8 @@ public class PagerM {
             TV[7][0]=("16:20");
             TV[8][0]=("17:00");
             TV[9][0]=("17:40");
+
+          */
     }
 
     void setCell(int r,int c,String str)

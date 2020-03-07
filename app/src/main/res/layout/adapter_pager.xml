@@ -33,6 +33,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
@@ -48,6 +49,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
@@ -63,6 +65,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
@@ -78,6 +81,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
@@ -93,6 +97,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
@@ -108,6 +113,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
@@ -123,6 +129,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
@@ -141,6 +148,7 @@
             android:layout_margin="1dp"
             android:textAllCaps="false"
             android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
             style="@style/Widget.AppCompat.Button"
             />
@@ -156,6 +164,7 @@
             android:layout_margin="1dp"
             android:textAllCaps="false"
             android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
             style="@style/Widget.AppCompat.Button"
             />
@@ -171,6 +180,7 @@
             android:layout_margin="1dp"
             android:textAllCaps="false"
             android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
             style="@style/Widget.AppCompat.Button"
             />
@@ -186,6 +196,7 @@
             android:layout_margin="1dp"
             android:textAllCaps="false"
             android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
             style="@style/Widget.AppCompat.Button"
             />
@@ -201,6 +212,7 @@
             android:layout_margin="1dp"
             android:textAllCaps="false"
             android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
             style="@style/Widget.AppCompat.Button"
             />
@@ -216,6 +228,7 @@
             android:layout_margin="1dp"
             android:textAllCaps="false"
             android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
             style="@style/Widget.AppCompat.Button"
             />
@@ -231,6 +244,7 @@
             android:layout_margin="1dp"
             android:textAllCaps="false"
             android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
             style="@style/Widget.AppCompat.Button"
             />
@@ -250,6 +264,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
@@ -265,6 +280,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
@@ -280,6 +296,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
@@ -295,6 +312,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
@@ -310,6 +328,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
@@ -325,6 +344,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
@@ -340,6 +360,7 @@
                 android:layout_margin="1dp"
                 android:textAllCaps="false"
                 android:maxLines="1"
+                android:ellipsize="end"
                 android:minHeight="30dip"
                 style="@style/Widget.AppCompat.Button"
                 />
