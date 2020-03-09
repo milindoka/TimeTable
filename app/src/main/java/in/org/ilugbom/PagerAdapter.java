@@ -1,27 +1,18 @@
 package in.org.ilugbom;
 
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.viewpager.widget.ViewPager;
-
-import com.google.gson.Gson;
+//import com.google.gson.Gson;
 
 import java.util.List;
-import java.util.zip.Inflater;
-
-import static android.content.ContentValues.TAG;
 import static android.content.Context.MODE_PRIVATE;
 import static android.provider.Contacts.SettingsColumns.KEY;
 
@@ -36,13 +27,13 @@ public class PagerAdapter extends RecyclerView.Adapter
     class PagerViewHolder extends RecyclerView.ViewHolder  implements View.OnClickListener
     {
 
-        private Button btnReset;
+     //   private Button btnReset;
         private Button btt[][]=new Button[TOTALROWS][TOTALCOLS];
 
         public PagerViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            btnReset = itemView.findViewById(R.id.bReset);
+           // btnReset = itemView.findViewById(R.id.bReset);
 
             int i=0,j=0;
             for ( i = 0; i < TOTALROWS; i++)
@@ -67,10 +58,10 @@ public class PagerAdapter extends RecyclerView.Adapter
             final int col=tempcol;
 
             final Button tempbutton =v.findViewById(ii);
-
-         // showDialog(v.getContext());
-        //    final int V=v.getId();
+            String presentcontent=pagerMList.get(CURRENTPAGE).getCell(row,col);
             final EditText taskEditText = new EditText(v.getContext());
+            taskEditText.setText(presentcontent);
+
             AlertDialog dialog = new AlertDialog.Builder(v.getContext())
                     .setTitle("Edit Cell")
                     .setMessage("Enter Cell Content")
@@ -80,7 +71,6 @@ public class PagerAdapter extends RecyclerView.Adapter
                         public void onClick(DialogInterface dialog, int which) {
 
                             String task = String.valueOf(taskEditText.getText());
-
                             pagerMList.get(CURRENTPAGE).setCell(row,col,task);
                             tempbutton.setText(task);
                             SaveData();
@@ -115,7 +105,7 @@ public class PagerAdapter extends RecyclerView.Adapter
         PagerViewHolder viewHolder = (PagerViewHolder) holder;
         PagerM pagerM = pagerMList.get(position);
         CURRENTPAGE=position;
-        viewHolder.btnReset.setText(pagerM.getPagerDescription());
+       // viewHolder.btnReset.setText(pagerM.getPagerDescription());
 
         int i=0,j=0;
         for ( i = 0; i < TOTALROWS; i++)
@@ -123,6 +113,7 @@ public class PagerAdapter extends RecyclerView.Adapter
             {
                 viewHolder.btt[i][j].setText(pagerM.getCell(i, j));
             }
+        viewHolder.btt[0][0].setText(String.format("%02d",CURRENTPAGE));
     }
 
     @Override
