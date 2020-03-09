@@ -21,7 +21,7 @@ import static android.provider.Contacts.SettingsColumns.KEY;
  */
 public class PagerAdapter extends RecyclerView.Adapter
 {
-    int TOTALROWS=3,TOTALCOLS=7;
+    int TOTALROWS=10,TOTALCOLS=7;
     private List<PagerM> pagerMList;
    int CURRENTPAGE=0;
     class PagerViewHolder extends RecyclerView.ViewHolder  implements View.OnClickListener
@@ -60,6 +60,7 @@ public class PagerAdapter extends RecyclerView.Adapter
             final Button tempbutton =v.findViewById(ii);
             String presentcontent=pagerMList.get(CURRENTPAGE).getCell(row,col);
             final EditText taskEditText = new EditText(v.getContext());
+            taskEditText.setSingleLine();
             taskEditText.setText(presentcontent);
 
             AlertDialog dialog = new AlertDialog.Builder(v.getContext())

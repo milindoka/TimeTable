@@ -5,7 +5,7 @@ package in.org.ilugbom;
  */
 public class PagerM {
     String title;
-    int TOTALROWS=3,TOTALCOLS=7;
+    int TOTALROWS=10,TOTALCOLS=7;
     String[][] TV = new String[TOTALROWS][TOTALCOLS];
 
 
@@ -31,7 +31,6 @@ public class PagerM {
 
             TV[1][0]=("12:30");
             TV[2][0]=("13:10");
-         /*
             TV[3][0]=("13:50");
             TV[4][0]=("14:30");
             TV[5][0]=("15:00");
@@ -40,7 +39,6 @@ public class PagerM {
             TV[8][0]=("17:00");
             TV[9][0]=("17:40");
 
-          */
     }
 
     void setCell(int r,int c,String str)
@@ -49,7 +47,6 @@ public class PagerM {
     }
 
     String getCell(int r,int c){return TV[r][c];}
-
 
 
 }

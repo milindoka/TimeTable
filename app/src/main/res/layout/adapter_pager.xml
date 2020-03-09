@@ -15,356 +15,1138 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:stretchColumns="*"
         android:padding="1dp"
-        >
+        android:stretchColumns="*">
 
         <!--Row 0-->
         <TableRow>
 
             <Button
                 android:id="@+id/TV00"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/TV01"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/TV02"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/TV03"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/TV04"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/TV05"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/TV06"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
         </TableRow>
 
         <!--Row 1-->
-       <TableRow>
-        <Button
-            android:id="@+id/TV10"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:layout_margin="1dp"
-            android:textAllCaps="false"
-            android:maxLines="1"
-                android:ellipsize="end"
-                android:minHeight="30dip"
-            style="@style/Widget.AppCompat.Button"
-            />
+        <TableRow>
 
-        <Button
-            android:id="@+id/TV11"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:layout_margin="1dp"
-            android:textAllCaps="false"
-            android:maxLines="1"
+            <Button
+                android:id="@+id/TV10"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-            style="@style/Widget.AppCompat.Button"
-            />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
-        <Button
-            android:id="@+id/TV12"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:layout_margin="1dp"
-            android:textAllCaps="false"
-            android:maxLines="1"
+            <Button
+                android:id="@+id/TV11"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-            style="@style/Widget.AppCompat.Button"
-            />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
-        <Button
-            android:id="@+id/TV13"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:layout_margin="1dp"
-            android:textAllCaps="false"
-            android:maxLines="1"
+            <Button
+                android:id="@+id/TV12"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-            style="@style/Widget.AppCompat.Button"
-            />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
-        <Button
-            android:id="@+id/TV14"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:layout_margin="1dp"
-            android:textAllCaps="false"
-            android:maxLines="1"
+            <Button
+                android:id="@+id/TV13"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-            style="@style/Widget.AppCompat.Button"
-            />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
-        <Button
-            android:id="@+id/TV15"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:layout_margin="1dp"
-            android:textAllCaps="false"
-            android:maxLines="1"
+            <Button
+                android:id="@+id/TV14"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-            style="@style/Widget.AppCompat.Button"
-            />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
-        <Button
-            android:id="@+id/TV16"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            android:layout_margin="1dp"
-            android:textAllCaps="false"
-            android:maxLines="1"
+            <Button
+                android:id="@+id/TV15"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-            style="@style/Widget.AppCompat.Button"
-            />
-       </TableRow>
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV16"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </TableRow>
 
 
         <!--Row 2-->
         <TableRow>
+
             <Button
                 android:id="@+id/TV20"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/TV21"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/TV22"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/TV23"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/TV24"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/TV25"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/TV26"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="#FFFFFF"
-                android:background="@color/colorAccent"
-                android:gravity="center"
                 android:layout_margin="1dp"
-                android:textAllCaps="false"
-                android:maxLines="1"
+                android:background="@color/colorAccent"
                 android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
                 android:minHeight="30dip"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
         </TableRow>
+
+        <!--Row 3-->
+        <TableRow>
+
+            <Button
+                android:id="@+id/TV30"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV31"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV32"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV33"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV34"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV35"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV36"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </TableRow>
+
+
+        <!--Row 4-->
+        <TableRow>
+
+            <Button
+                android:id="@+id/TV40"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV41"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV42"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV43"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV44"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV45"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV46"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </TableRow>
+
+
+        <!--Row 5-->
+        <TableRow>
+
+            <Button
+                android:id="@+id/TV50"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV51"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV52"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV53"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV54"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV55"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/TV56"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="30dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </TableRow>
+
+
+
+
+
+    <!--Row 6-->
+    <TableRow>
+        <Button
+            android:id="@+id/TV60"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV61"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV62"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV63"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV64"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV65"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV66"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+    </TableRow>
+
+
+
+    <!--Row 7-->
+    <TableRow>
+        <Button
+            android:id="@+id/TV70"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV71"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV72"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV73"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV74"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV75"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV76"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+    </TableRow>
+
+
+
+
+
+    <!--Row 8-->
+    <TableRow>
+        <Button
+            android:id="@+id/TV80"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV81"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV82"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV83"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV84"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV85"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV86"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+    </TableRow>
+
+
+
+    <!--Row 9-->
+    <TableRow>
+        <Button
+            android:id="@+id/TV90"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV91"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV92"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV93"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV94"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV95"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+
+        <Button
+            android:id="@+id/TV96"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:minHeight="30dip"
+            style="@style/Widget.AppCompat.Button"
+            />
+    </TableRow>
+
     </TableLayout>
 
 </RelativeLayout>

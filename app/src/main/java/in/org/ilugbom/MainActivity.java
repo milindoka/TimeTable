@@ -27,7 +27,7 @@ import static android.provider.Contacts.SettingsColumns.KEY;
 public class MainActivity extends AppCompatActivity {
     private ViewPager2 viewPager2;
     private static Context context;
-    int TOTALROWS=3,TOTALCOLS=7;
+    int TOTALROWS=10,TOTALCOLS=7;
     SharedPreferences sharedPreferences;
     String SHARED_PREFS = "TT-PREF";
     String KEY = "ALLTABLES";
