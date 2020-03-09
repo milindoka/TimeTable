@@ -12,6 +12,7 @@ import com.google.gson.reflect.TypeToken;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.view.View;
@@ -27,6 +28,8 @@ import static android.provider.Contacts.SettingsColumns.KEY;
 
 public class MainActivity extends AppCompatActivity {
     private ViewPager2 viewPager2;
+    List<PagerM> pagerMList = new ArrayList<>();
+
     private static Context context;
     int TOTALROWS=10,TOTALCOLS=7;
     SharedPreferences sharedPreferences;
@@ -34,8 +37,6 @@ public class MainActivity extends AppCompatActivity {
     String KEY = "ALLTABLES";
     String text;
     MainActivity MA;
-
-
 
 
     @Override
@@ -54,8 +55,6 @@ public class MainActivity extends AppCompatActivity {
         setUpPagerAdapter();
         ////////
         MainActivity.context = getApplicationContext();
-
-
     }
 
 
@@ -71,21 +70,35 @@ public class MainActivity extends AppCompatActivity {
         PagerAdapter pagerAdapter = new PagerAdapter(fetchDummyData());
         viewPager2.setAdapter(pagerAdapter);
         viewPager2.setOrientation(ViewPager2.ORIENTATION_HORIZONTAL);
-        pagerAdapter.SetMA(this);
+      
 
+        viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+                super.onPageScrolled(position, positionOffset, positionOffsetPixels);
 
+            }
 
+            @Override
+            public void onPageSelected(int position) {
+                super.onPageSelected(position);
+      getSupportActionBar().setTitle(pagerMList.get(position).getPagerDescription());
+            }
 
+            @Override
+            public void onPageScrollStateChanged(int state) {
+                super.onPageScrollStateChanged(state);
+
+            }
+        });
     }
-
-
 
     /**
      *
      * @return this method will return dummy data in form of list
      */
     private List<PagerM> fetchDummyData() {
-        List<PagerM> pagerMList = new ArrayList<>();
+
     String defaulttitle[]={"My Own","Extra-01","Extra-02","Extra-03"};
       pagerMList.removeAll(pagerMList);
        if(!text.contains("┼")) ///create default table
