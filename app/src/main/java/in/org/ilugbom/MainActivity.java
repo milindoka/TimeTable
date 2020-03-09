@@ -9,6 +9,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager2.widget.ViewPager2;
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     String SHARED_PREFS = "TT-PREF";
     String KEY = "ALLTABLES";
     String text;
+    MainActivity MA;
 
 
 
@@ -40,6 +42,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+
         sharedPreferences = this.getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
         text = sharedPreferences.getString(KEY, "");
 
@@ -49,7 +55,10 @@ public class MainActivity extends AppCompatActivity {
         ////////
         MainActivity.context = getApplicationContext();
 
+
     }
+
+
 
     public static Context getAppContext()
     {
@@ -62,8 +71,12 @@ public class MainActivity extends AppCompatActivity {
         PagerAdapter pagerAdapter = new PagerAdapter(fetchDummyData());
         viewPager2.setAdapter(pagerAdapter);
         viewPager2.setOrientation(ViewPager2.ORIENTATION_HORIZONTAL);
-    }
+        pagerAdapter.SetMA(this);
 
+
+
+
+    }
 
 
 
@@ -73,14 +86,14 @@ public class MainActivity extends AppCompatActivity {
      */
     private List<PagerM> fetchDummyData() {
         List<PagerM> pagerMList = new ArrayList<>();
-
+    String defaulttitle[]={"My Own","Extra-01","Extra-02","Extra-03"};
       pagerMList.removeAll(pagerMList);
        if(!text.contains("┼")) ///create default table
          {
             for (int i=0;i<4;i++)
             {
                 PagerM pagerM = new PagerM();
-                pagerM.setPagerDescription(String.format("%02d",i));
+                pagerM.setPagerDescription(defaulttitle[i]);
                 pagerMList.add(pagerM);
 
             }
@@ -102,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
 
         {
             PagerM pagerM = new PagerM();
-            pagerM.setPagerDescription(String.format("%02d",t));
+           // pagerM.setPagerDescription(String.format("My %02d",t));
             pagerMList.add(pagerM);
 
         }
@@ -152,6 +165,9 @@ public class MainActivity extends AppCompatActivity {
         return callLog;
     }
 */
+
+
+
 }
 
 

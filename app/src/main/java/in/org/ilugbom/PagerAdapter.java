@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager2.widget.ViewPager2;
 //import com.google.gson.Gson;
 
 import java.util.List;
@@ -20,12 +21,23 @@ import static android.provider.Contacts.SettingsColumns.KEY;
  * Created by Milind on 01,03,2020
  */
 public class PagerAdapter extends RecyclerView.Adapter
-{
+{   MainActivity MA;
     int TOTALROWS=10,TOTALCOLS=7;
     private List<PagerM> pagerMList;
    int CURRENTPAGE=0;
+    void SetMA(MainActivity MA)
+    {this.MA=MA;}
+
+
+
+
+
+
+
     class PagerViewHolder extends RecyclerView.ViewHolder  implements View.OnClickListener
     {
+
+
 
      //   private Button btnReset;
         private Button btt[][]=new Button[TOTALROWS][TOTALCOLS];
@@ -105,6 +117,7 @@ public class PagerAdapter extends RecyclerView.Adapter
     {
         PagerViewHolder viewHolder = (PagerViewHolder) holder;
         PagerM pagerM = pagerMList.get(position);
+
         CURRENTPAGE=position;
        // viewHolder.btnReset.setText(pagerM.getPagerDescription());
 
@@ -114,8 +127,14 @@ public class PagerAdapter extends RecyclerView.Adapter
             {
                 viewHolder.btt[i][j].setText(pagerM.getCell(i, j));
             }
+
         viewHolder.btt[0][0].setText(String.format("%02d",CURRENTPAGE));
+
+        MA.getSupportActionBar().setTitle(pagerMList.get(CURRENTPAGE).title);
+
     }
+
+
 
     @Override
     public int getItemCount() {
