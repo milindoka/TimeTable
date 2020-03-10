@@ -21,14 +21,9 @@ import static android.provider.Contacts.SettingsColumns.KEY;
  * Created by Milind on 01,03,2020
  */
 public class PagerAdapter extends RecyclerView.Adapter
-{   //MainActivity MA;
-    int TOTALROWS=10,TOTALCOLS=7;
+{   int TOTALROWS=10,TOTALCOLS=7;
     private List<PagerM> pagerMList;
    int CURRENTPAGE=0;
-
-   //void SetMA(MainActivity MA)
-   // {this.MA=MA;}
-
 
     class PagerViewHolder extends RecyclerView.ViewHolder  implements View.OnClickListener
     {
@@ -36,9 +31,6 @@ public class PagerAdapter extends RecyclerView.Adapter
 
         public PagerViewHolder(@NonNull View itemView) {
             super(itemView);
-
-           // btnReset = itemView.findViewById(R.id.bReset);
-
             int i=0,j=0;
             for ( i = 0; i < TOTALROWS; i++)
                 for ( j = 0; j < TOTALCOLS; j++)
@@ -87,8 +79,6 @@ public class PagerAdapter extends RecyclerView.Adapter
             dialog.show();
         }
 
-
-
     }  ////end of class pageviewholder
 
     public PagerAdapter(List<PagerM> pagerMList) {
@@ -110,10 +100,6 @@ public class PagerAdapter extends RecyclerView.Adapter
         PagerViewHolder viewHolder = (PagerViewHolder) holder;
         PagerM pagerM = pagerMList.get(position);
         CURRENTPAGE=position;
-       // MA.getSupportActionBar().setTitle(pagerMList.get(CURRENTPAGE).title);
-
-       // viewHolder.btnReset.setText(pagerM.getPagerDescription());
-
         int i=0,j=0;
         for ( i = 0; i < TOTALROWS; i++)
             for ( j = 0; j < TOTALCOLS; j++)
@@ -122,9 +108,6 @@ public class PagerAdapter extends RecyclerView.Adapter
             }
 
         viewHolder.btt[0][0].setText(String.format("%02d",CURRENTPAGE));
-
-       // MA.getSupportActionBar().setTitle(pagerMList.get(CURRENTPAGE).title);
-
     }
 
 

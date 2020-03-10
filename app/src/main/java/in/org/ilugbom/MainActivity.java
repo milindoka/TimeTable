@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
     String SHARED_PREFS = "TT-PREF";
     String KEY = "ALLTABLES";
     String text;
-    MainActivity MA;
 
 
     @Override
@@ -54,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager2 = findViewById(R.id.viewPager2);
         setUpPagerAdapter();
         ////////
-        MainActivity.context = getApplicationContext();
+       MainActivity.context = getApplicationContext();
     }
 
 
@@ -70,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         PagerAdapter pagerAdapter = new PagerAdapter(fetchDummyData());
         viewPager2.setAdapter(pagerAdapter);
         viewPager2.setOrientation(ViewPager2.ORIENTATION_HORIZONTAL);
-      
+
 
         viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
@@ -178,8 +177,6 @@ public class MainActivity extends AppCompatActivity {
         return callLog;
     }
 */
-
-
 
 }
 
