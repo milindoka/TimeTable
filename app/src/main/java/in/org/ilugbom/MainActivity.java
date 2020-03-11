@@ -54,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
         setUpPagerAdapter();
         ////////
        MainActivity.context = getApplicationContext();
+
+
     }
 
 

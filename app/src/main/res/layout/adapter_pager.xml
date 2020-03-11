@@ -27,13 +27,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -42,13 +42,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -57,13 +57,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -72,13 +72,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -87,13 +87,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -102,13 +102,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -117,13 +117,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
         </TableRow>
 
@@ -136,13 +136,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -151,13 +151,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -166,13 +166,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -181,13 +181,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -196,13 +196,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -211,13 +211,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -226,13 +226,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
         </TableRow>
 
@@ -246,13 +246,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -261,13 +261,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -276,13 +276,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -291,13 +291,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -306,13 +306,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -321,13 +321,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -336,13 +336,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
         </TableRow>
 
@@ -355,13 +355,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -370,13 +370,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -385,13 +385,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -400,13 +400,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -415,13 +415,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -430,13 +430,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -445,13 +445,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
         </TableRow>
 
@@ -465,13 +465,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -480,13 +480,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -495,13 +495,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -510,13 +510,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -525,13 +525,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -540,13 +540,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -555,13 +555,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
         </TableRow>
 
@@ -575,13 +575,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -590,13 +590,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -605,13 +605,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -620,13 +620,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -635,13 +635,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -650,13 +650,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
 
             <Button
@@ -665,13 +665,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:background="@color/colorAccent"
+                android:background="@color/cellColor"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:maxLines="1"
                 android:minHeight="30dip"
                 android:textAllCaps="false"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColor"
                 android:textSize="16sp" />
         </TableRow>
 
@@ -686,8 +686,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -702,8 +702,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -718,8 +718,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -734,8 +734,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -750,8 +750,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -766,8 +766,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -782,8 +782,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -803,8 +803,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -819,8 +819,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -835,8 +835,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -851,8 +851,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -867,8 +867,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -883,8 +883,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -899,8 +899,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -922,8 +922,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -938,8 +938,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -954,8 +954,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -970,8 +970,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -986,8 +986,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -1002,8 +1002,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -1018,8 +1018,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -1039,8 +1039,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -1055,8 +1055,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -1071,8 +1071,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -1087,8 +1087,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -1103,8 +1103,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -1119,8 +1119,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
@@ -1135,8 +1135,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:background="@color/cellColor"
             android:gravity="center"
             android:layout_margin="1dp"
             android:textAllCaps="false"
