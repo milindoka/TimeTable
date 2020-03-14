@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.annotation.NonNull;
@@ -23,17 +24,42 @@ public class Cell_Entry_Dialog extends AppCompatDialogFragment {
     @NonNull
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         LayoutInflater inflater=getActivity().getLayoutInflater();
         View view= inflater.inflate(R.layout.cell_entry_dialog,null);
-        builder.setView(view)
-                .setTitle("Login")
+
+        //final AlertDialog ad = builder.show();
+        Button btndone = (Button) view.findViewById(R.id.buttonok);
+
+        btndone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String tempcelltext = cellentry.getText().toString();
+                listener.applyText(tempcelltext);
+                dismiss();
+            }
+        });
+
+        Button btncancel = (Button) view.findViewById(R.id.buttoncancel);
+
+        btncancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dismiss();
+            }
+        });
+
+
+        builder.setView(view);
+        /*
+        .setTitle("Login")
                 .setNegativeButton("cancel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
 
                     }
                 })
+            /*
                 .setPositiveButton("ok", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
@@ -43,6 +69,8 @@ public class Cell_Entry_Dialog extends AppCompatDialogFragment {
                     //    listener.applyTexts(username, password);
                     }
                 });
+
+             */
         cellentry=view.findViewById(R.id.edit_cell);
         return builder.create();
     }
