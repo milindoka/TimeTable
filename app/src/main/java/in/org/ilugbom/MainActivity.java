@@ -26,7 +26,7 @@ import java.util.List;
 
 import static android.provider.Contacts.SettingsColumns.KEY;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements Cell_Entry_Dialog.cell_Entry_Dialog_Listener {
     private ViewPager2 viewPager2;
     List<PagerM> pagerMList = new ArrayList<>();
 
@@ -201,14 +201,28 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings)
         {
-            Snackbar.make(getWindow().getDecorView().getRootView(), "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show();
-
+//            Snackbar.make(getWindow().getDecorView().getRootView(), "Replace with your own action", Snackbar.LENGTH_LONG)
+  //                  .setAction("Action", null).show();
+      ShowCellEntryDialog();
 
             return true;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+
+void ShowCellEntryDialog()
+{
+    Cell_Entry_Dialog ced=new Cell_Entry_Dialog();
+    ced.show(getSupportFragmentManager(),"Edit Cell");
+}
+
+
+    @Override
+    public void applyText(String celltext) {
+    Msg.Show(celltext,this);
     }
 }
 
