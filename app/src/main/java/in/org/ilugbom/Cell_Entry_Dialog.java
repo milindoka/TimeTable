@@ -3,18 +3,16 @@ package in.org.ilugbom;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDialogFragment;
-
-import java.util.zip.Inflater;
 
 public class Cell_Entry_Dialog extends AppCompatDialogFragment {
 
@@ -25,12 +23,11 @@ public class Cell_Entry_Dialog extends AppCompatDialogFragment {
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
         final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+
         LayoutInflater inflater=getActivity().getLayoutInflater();
         View view= inflater.inflate(R.layout.cell_entry_dialog,null);
 
-        //final AlertDialog ad = builder.show();
         Button btndone = (Button) view.findViewById(R.id.buttonok);
-
         btndone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,37 +38,15 @@ public class Cell_Entry_Dialog extends AppCompatDialogFragment {
         });
 
         Button btncancel = (Button) view.findViewById(R.id.buttoncancel);
-
         btncancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 dismiss();
             }
         });
-
-
         builder.setView(view);
-        /*
-        .setTitle("Login")
-                .setNegativeButton("cancel", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-
-                    }
-                })
-            /*
-                .setPositiveButton("ok", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        String tempcelltext = cellentry.getText().toString();
-                        listener.applyText(tempcelltext);
-                    //    String password = editTextPassword.getText().toString();
-                    //    listener.applyTexts(username, password);
-                    }
-                });
-
-             */
         cellentry=view.findViewById(R.id.edit_cell);
+
         return builder.create();
     }
 
@@ -92,4 +67,10 @@ public class Cell_Entry_Dialog extends AppCompatDialogFragment {
         void  applyText(String celltext);
     }
 
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        getDialog().getWindow().setGravity(Gravity.CENTER_HORIZONTAL | Gravity.TOP);
+        return getView();
+    }
 }
+

@@ -3,28 +3,15 @@ package in.org.ilugbom;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.widget.ViewPager2;
-
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
-import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
-import static android.provider.Contacts.SettingsColumns.KEY;
 
 public class MainActivity extends AppCompatActivity implements Cell_Entry_Dialog.cell_Entry_Dialog_Listener {
     private ViewPager2 viewPager2;
@@ -158,31 +145,9 @@ public class MainActivity extends AppCompatActivity implements Cell_Entry_Dialog
 
                 }
             pagerMList.get(t).title=temp[index];
-
         }
-
         return pagerMList;
-
      }
-
-
-/*
-
-    public  List<PagerM> loaddata(Context context) {
-        List<PagerM> callLog = new ArrayList<PagerM>();
-        SharedPreferences mPrefs = context.getSharedPreferences("TT-PREFS", context.MODE_PRIVATE);
-        Gson gson = new Gson();
-        String json = mPrefs.getString("myJson", "");
-        if (json.isEmpty()) {
-            callLog = new ArrayList<PagerM>();
-        } else {
-            Type type = new TypeToken<List<PagerM>>() {
-            }.getType();
-            callLog = gson.fromJson(json, type);
-        }
-        return callLog;
-    }
-*/
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -210,8 +175,6 @@ public class MainActivity extends AppCompatActivity implements Cell_Entry_Dialog
 
         return super.onOptionsItemSelected(item);
     }
-
-
 
 void ShowCellEntryDialog()
 {
